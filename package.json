@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  },
+  "name": "bot-ender",
+  "version": "1.0.0",
+  "description": "Bot da Rede Ender",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "faall",
+  "license": "ISC"
+}
