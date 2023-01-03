@@ -1,9 +1,11 @@
 const { Client, GatewayIntentBits, EmbedBuilder, PermissionsBitField, Permissions, ContextMenuCommandAssertions, DiscordAPIError} = require(`discord.js`);
 
+//Prefixo para identificar comandos
 const prefix = "!";
 
 const client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
+//Colocar online e setar a atividade
 client.on("ready", () => {
     console.log("Bot está online!");
 
@@ -25,18 +27,14 @@ client.on("messageCreate", (message) => {
 
 
 
-//test command 
+//Comando de teste 
 
 if (command === 'test'){
     message.channel.send('o pai ta on!')
 }
 
-if (command === 'coquinho'){
-    message.channel.send('eh gay!')
-}
 
-
-//Contagem de Membros
+//Comando para Contagem de Membros
 
 if (cmd === `${prefix}membros`){
     message.channel.send(`**Membros do Servidor:** ${message.guild.memberCount}`)
@@ -71,6 +69,4 @@ if (command === 'embed'){
 
 
 
-
-
-client.login("MTA1NzE0NzIwNDA0Njk0NjMzNA.GkGSie.qkQoibYCLgQcYPwnxOfexcb6iH3TuPllHWRi-4");
+client.login("aqui vc coloca o token do seu bot");
