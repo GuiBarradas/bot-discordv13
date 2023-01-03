@@ -2,14 +2,14 @@
   "dependencies": {
     "discord.js": "^14.7.1"
   },
-  "name": "bot-ender",
-  "version": "1.0.0",
-  "description": "Bot da Rede Ender",
-  "main": "index.js",
+  "name": "nome-do-seu-bot",  //Nome
+  "version": "1.0.0",         //Versão da aplicação
+  "description": "Eu sou legal", //Descrição
+  "main": "index.js",            //Nome da main do projeto
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "faall",
-  "license": "ISC"
+  "author": "faall/GuiBarradas", //autor
+  "license": "ISC"               //License
 }
