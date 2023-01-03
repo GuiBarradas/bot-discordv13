@@ -9,7 +9,7 @@ const client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits
 client.on("ready", () => {
     console.log("Bot está online!");
 
-    client.user.setActivity("na Rede Ender!"), { type: "Patrulhando"}
+    client.user.setActivity("no Servidor do Fulano!"), { type: "Jogando"}
 })
 
 
