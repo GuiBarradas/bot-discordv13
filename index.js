@@ -41,26 +41,6 @@ if (cmd === `${prefix}membros`){
 }
 
 
-//Embed Post
-
-if (command === 'embed'){
-       
-     const embed = new Discord.EmbedBuilder() 
-     .setColor('#702963')
-     .setTitle(':white_check_mark: Embed Test Title')
-     .setDescription('Embed disc')
-     .setThumbnail('https://imgur.com/aEiLpBx.png')
-     .setImage('https://imgur.com/aEiLpBx.png')
-     .setTimestamp()
-     .setFooter(`Embed created by: ${message.author.tag}`)
-
-     message.channel.send({ embeds: [embed]})
-
-}
-
-
-
-
 
 })
 
